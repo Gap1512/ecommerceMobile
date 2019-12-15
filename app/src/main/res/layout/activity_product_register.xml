@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProductRegister">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <Button
+            android:id="@+id/homebt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="OnClick"
+            android:text="@string/homebt" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/nametb"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/pricetb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/pricetb"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/stocktb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/stocktb"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/weighttb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/weighttb"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/volumetb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/volumetb"
+            android:inputType="numberDecimal" />
+
+        <RatingBar
+            android:id="@+id/ratingbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="5"
+            android:stepSize="1"/>
+
+        <EditText
+            android:id="@+id/adresstb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/adresstb"
+            android:inputType="textPostalAddress" />
+
+        <EditText
+            android:id="@+id/ceptb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/ceptb"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/descriptiontb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="start|top"
+            android:hint="@string/descriptiontb"
+            android:inputType="textMultiLine" />
+
+        <Button
+            android:id="@+id/newbt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="OnClick"
+            android:text="@string/newbt" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

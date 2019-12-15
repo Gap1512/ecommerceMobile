@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateAccount">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <Button
+            android:id="@+id/homebt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/homebt"
+            android:onClick="OnClick"/>
+
+        <EditText
+            android:id="@+id/emaltb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/emailtb"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/passwordtb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/passwordtb"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/firstNametb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/firstNametb"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/lastNametb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/lastNametb"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/cpftb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/cpftb"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/birthDatetb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/birthDatetb"
+            android:inputType="date" />
+
+        <EditText
+            android:id="@+id/adresstb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/adresstb"
+            android:inputType="textPostalAddress" />
+
+        <EditText
+            android:id="@+id/ceptb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/ceptb"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/createAccountbt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="OnClick"
+            android:text="@string/createAccountbt" />
+
+        <Button
+            android:id="@+id/createAdminAccount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="OnClick"
+            android:text="@string/createAdminAccountbt" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

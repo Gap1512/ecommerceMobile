@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <TextView
+            android:id="@+id/logintb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/searchtb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="text" />
+
+            <Button
+                android:id="@+id/searchbt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/searchbt"
+                android:onClick="OnClick"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/homebt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/homebt"
+            android:onClick="OnClick"/>
+
+        <Button
+            android:id="@+id/loginPagebt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/loginbt"
+            android:onClick="OnClick"/>
+
+        <Button
+            android:id="@+id/createAccountPagebt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/createAccountbt"
+            android:onClick="OnClick"/>
+
+        <Button
+            android:id="@+id/productsManagerbt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/productsManagerbt"
+            android:onClick="OnClick"/>
+
+        <Button
+            android:id="@+id/usersManagerbt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/usersManagerbt"
+            android:onClick="OnClick"/>
+
+        <Button
+            android:id="@+id/brandsManagerbt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/brandsManagerbt"
+            android:onClick="OnClick"/>
+
+        <Button
+            android:id="@+id/categoriesManagerbt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/categoriesManagerbt"
+            android:onClick="OnClick"/>
+
+        <Button
+            android:id="@+id/cartbt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/cartbt"
+            android:onClick="OnClick"/>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

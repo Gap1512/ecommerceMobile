@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Ecommerce Mobile</string>
+
+    <string name="searchbt">Search</string>
+    <string name="homebt">Home</string>
+    <string name="loginPagebt">Login</string>
+    <string name="createAccountbt">Create Account</string>
+    <string name="createAdminAccountbt">Create Admin Account</string>
+    <string name="productsManagerbt">Products Manager</string>
+    <string name="usersManagerbt">Users Manager</string>
+    <string name="brandsManagerbt">Brands Manager</string>
+    <string name="categoriesManagerbt">Categories Manager</string>
+    <string name="cartbt">Cart</string>
+
+    <string name="emailtb">Email</string>
+    <string name="passwordtb">Password</string>
+    <string name="firstNametb">First Name</string>
+    <string name="lastNametb">Last Name</string>
+    <string name="cpftb">CPF</string>
+    <string name="birthDatetb">Birth Date</string>
+    <string name="adresstb">Address</string>
+    <string name="ceptb">CEP</string>
+    <string name="admincb">Administrator</string>
+
+    <string name="loginbt">Login</string>
+    <string name="loginAdminbt">Admin</string>
+
+    <string name="newbt">New</string>
+    <string name="nametb">Name</string>
+    <string name="pricetb">Price</string>
+    <string name="stocktb">Stock</string>
+    <string name="weighttb">Weight</string>
+    <string name="volumetb">Volume</string>
+    <string name="descriptiontb">Description</string>
+</resources>
