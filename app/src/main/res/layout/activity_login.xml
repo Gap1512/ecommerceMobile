@@ -13,13 +13,6 @@
         tools:layout_editor_absoluteX="1dp"
         tools:layout_editor_absoluteY="1dp">
 
-        <Button
-            android:id="@+id/homebt"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/homebt"
-            android:onClick="OnClick"/>
-
         <EditText
             android:id="@+id/emailtb"
             android:layout_width="match_parent"
@@ -33,6 +26,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
+            android:hint="@string/passwordtb"
             android:inputType="textPassword" />
 
         <LinearLayout

@@ -4,35 +4,26 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".BrandsRegister">
-
+    tools:context=".Cart">
     <LinearLayout
-        android:layout_width="409dp"
-        android:layout_height="729dp"
-        android:orientation="vertical"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="1dp">
-
-
-        <EditText
-            android:id="@+id/nametb"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:ems="10"
-            android:hint="@string/nametb"
-            android:inputType="textPersonName" />
-
-        <RatingBar
-            android:id="@+id/ratingbar"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:id="@+id/cart_quantity"
+            android:text="Products in the Cart: 0"> </TextView>
+        <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:numStars="5"
-            android:stepSize="1"/>
-
-        <Button
-            android:id="@+id/newbt"
+            android:text="Complete Purchase"
+            android:onClick="CompletePurchase"> </Button>
+        <ListView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/newbt" />
+            android:id="@+id/myList"> </ListView>
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -12,12 +12,5 @@
         android:orientation="vertical"
         tools:layout_editor_absoluteX="1dp"
         tools:layout_editor_absoluteY="1dp">
-
-        <Button
-            android:id="@+id/homebt"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:onClick="OnClick"
-            android:text="@string/homebt" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

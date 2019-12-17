@@ -14,13 +14,6 @@
         tools:layout_editor_absoluteY="1dp">
 
         <Button
-            android:id="@+id/homebt"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:onClick="OnClick"
-            android:text="@string/homebt" />
-
-        <Button
             android:id="@+id/newProductbt"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

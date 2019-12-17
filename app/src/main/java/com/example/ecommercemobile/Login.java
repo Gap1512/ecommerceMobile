@@ -3,6 +3,10 @@ package com.example.ecommercemobile;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import android.view.Menu;
+import android.view.MenuItem;
+
 import android.view.View;
 import android.widget.TextView;
 
@@ -14,9 +18,25 @@ public class Login extends AppCompatActivity {
         flow = new Flow();
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 
     public void OnClick(View v){
         flow.OnClick(v, this);
+    }
+
+    public boolean onCreateOptionsMenu(Menu menu) {
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case android.R.id.home:
+                finish();
+                return true;
+        }
+
+        return super.onOptionsItemSelected(item);
     }
 }
